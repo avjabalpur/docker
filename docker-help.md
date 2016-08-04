@@ -9,6 +9,8 @@
 
 5 >> Remove the running images "docker rmi $(docker images -q)"
 
-6 >> Grep the process "ps -ax | grep <processname>"
+6 >> Grep the process "ps -ax | grep processname"
 
-7 >> Kill the process "sudo killall <processname>"
+7 >> Kill the process "sudo killall processname"
+
+8 >> Check the open network "netstat -a | grep ':http'"
