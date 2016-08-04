@@ -1,16 +1,18 @@
 # docker help full command 
-1 >> Start the docker service "sudo service docker start/stop/restart"
+>> Start the docker service "sudo service docker start/stop/restart"
 
-2 >> Checking the running container "docker ps"
+>> Build docker "docker build [OPTIONS] PATH | URL | -"
 
-3 >> Remove the running container "docker rm $(docker ps -a -q)"
+>> Checking the running container "docker ps"
 
-4 >> Checking the running images "docker images"
+>> Remove the running container "docker rm $(docker ps -a -q)"
 
-5 >> Remove the running images "docker rmi $(docker images -q)"
+>> Checking the running images "docker images"
 
-6 >> Grep the process "ps -ax | grep processname"
+>> Remove the running images "docker rmi $(docker images -q)"
 
-7 >> Kill the process "sudo killall processname"
+>> Grep the process "ps -ax | grep processname"
 
-8 >> Check the open network "netstat -a | grep ':http'"
+>> Kill the process "sudo killall processname"
+
+>> Check the open network "netstat -a | grep ':http'"
