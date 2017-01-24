@@ -9,3 +9,5 @@
 >> Set the permisson for sudo "sudo chown -R $USER:$USER".
 
 >> Get the numer of lines from the buttom for a file "sudo tail -f -n 100 filename"
+
+>> Find the text inside the files/folder grep -rnw '/path/to/somewhere/' -e "pattern"
