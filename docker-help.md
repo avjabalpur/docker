@@ -18,3 +18,5 @@
 >> Check the open network "netstat -a | grep ':http'"
 
 >> check the tree structure of the docker container "sudo docker exec  -it container-id /bin/sh"
+
+>> Delete none docker images "docker rmi $(docker images | grep "^<none>" | awk "{print $3}")"
